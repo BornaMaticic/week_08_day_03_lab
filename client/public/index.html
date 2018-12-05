@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html lang=“en” dir=“ltr”>
- <head>
-   <meta charset=“utf-8”>
-   <title>Bucket List</title>
-   <script src=“/js/bundle.js”></script>
-   <link href=“” rel=“stylesheet”>
-   <link rel=“stylesheet” href=“/css/main.css”>
- </head>
- <body>
-   <h1>Bucket List</h1>
-   <div class=“wrapper”>
-     <div>
-       <h2>Add Location</h2>
-       <form id=locations-form”>
-         <div>
-           <label for=“location”>Location:</label>
-           <input type=“text” id=“location”/>
-         </div>
-         <div>
-           <label for=“activity”>Activity:</label>
-           <input type=“text” id=“activity”/>
-         </div>
-         <div>
-           <label for=“date”>Date:</label>
-           <input type=“date” id=“date”/>
-         </div>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bucket List</title>
+    <script src="/js/bundle.js"></script>
+    <link href="" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <h1>Locations</h1>
+    <div class="wrapper">
+      <div>
+        <h2>Add a Location</h2>
+        <form id="locations-form">
+          <div>
+            <label for="name">Location name:</label>
+            <input type="text" id="name"/>
+          </div>
+          <div>
+            <label for="activity">Activity:</label>
+            <input type="text" id="activity"/>
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date"/>
+          </div>
 
-         <input type=“submit” value=“Save” id=“save”/>
-       </form>
-     </div>
-     <div>
-       <h2>Locations</h2>
-       <div id=“locations”></div>
-     </div>
-   </div>
- </body>
+          <input type="submit" value="Save" id="save"/>
+        </form>
+      </div>
+      <div>
+        <h2>Locations</h2>
+        <div id="locations"></div>
+      </div>
+    </div>
+  </body>
 </html>

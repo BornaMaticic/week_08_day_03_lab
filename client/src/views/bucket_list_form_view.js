@@ -19,7 +19,7 @@ BucketListFormView.prototype.handleSubmit = function (evt) {
 
 BucketListFormView.prototype.createLocation = function (form) {
   const newLocation = {
-    location: form.location.value,
+    name: form.name.value,
     activity: form.activity.value,
     date: form.date.value
   }

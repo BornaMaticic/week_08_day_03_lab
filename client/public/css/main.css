@@ -1,0 +1,42 @@
+body {
+  font-family: 'EB Garamond', serif;
+  background: url(../images/background_image.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+/*
+.wrapper {
+  text-align: center;
+} */
+
+.delete-btn {
+  width: 25px;
+  height: 25px;
+  background: url(../images/bin.jpg);
+  background-size: 20px;
+  /* background-color: black; */
+  /* border: black, 5px, 1px; */
+}
+
+button.delete-btn {
+  border: solid;
+  padding: 0;
+}
+
+#location {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-star;
+  border: solid;
+}
+
+#locations-form {
+  text-align: center;
+}
